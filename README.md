@@ -2,11 +2,11 @@
 import csv files to postgresql database
 
 # install
-    go get github.com/ip75/pgimport
+    go get -u github.com/ip75/pgimport
 
 # usage
 
-    ./pgimport -fields="aoid","aoguid","parentguid" -table=object Objects.csv
+    pgimport -fields="aoid","aoguid","parentguid" -table=object Objects.csv
 
 ```    
 Usage of ./pgimport [OPTIONS] csv_file :
